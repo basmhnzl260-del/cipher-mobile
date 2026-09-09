@@ -1,12 +1,8 @@
 plugins {
-    id "com.android.application" version "7.3.0" apply false
-    id "kotlin-android" version "1.7.10" apply false
-    id "dev.flutter.flutter-gradle-plugin" version "1.0.0" apply false
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
 }
-
-apply plugin: "com.android.application"
-apply plugin: "kotlin-android"
-apply plugin: "dev.flutter.flutter-gradle-plugin"
 
 android {
     namespace "com.example.cipher_mobile"
