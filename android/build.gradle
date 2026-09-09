@@ -1,8 +1,5 @@
 allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+    // Repositories are managed in settings.gradle
 }
 
 rootProject.buildDir = '../build'
@@ -16,4 +13,3 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-
